@@ -26,6 +26,13 @@ Caso resolva usar o Visual Studio como IDE, durante a sua instalação procure i
 Nesse workshop você será capaz de desenvolver a sua primeira aplicação Web em .NET Core 2.x Razor Pages.
 A aplicação constitui num CRUD (Create, Read, Update e Delete).
 
+## Ementa do Workshop: :pencil2:
+
+- Parte 1: Criando Razor Pages usando o dotnet CLI & VS Code;
+- Parte 2: Adicionando um modelo para a aplicaçao ASP.NET Core Razor Pages;
+- Parte 3: Atualizando e gerando páginas;
+- Parte 4: Adicionando busca para a aplicação Razor Pages;
+
 ## Tenho Dúvidas... O que faço?! :triangular_flag_on_post:
 
 Caso tenha dúvidas ao código desenvolvido durante o workshop, sinta-se a vontade em abrir uma [ISSUE Aqui](https://github.com/glaucia86/workshop-net-core-iniciantes/issues) no repositório com a sua dúvida. Assim que possível, estarei respondendo as todas as dúvidas que tiverem! 
