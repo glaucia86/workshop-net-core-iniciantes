@@ -36,7 +36,7 @@ A aplicação constitui num CRUD (Create, Read, Update e Delete).
 ## Vídeos do Workshop: :movie_camera:
 
 - [Aula 01 - Introdução](https://youtu.be/njlmcXxSHE4)
-- [Aula 02 - ]()
+- [Aula 02 - Criando aplicação .NET Core](https://youtu.be/QobTy9hMUsA)
 - [Aula 03 - ]()
 - [Aula 04 - ]()
 - [Aula 05 - ]()
