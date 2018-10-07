@@ -9,7 +9,7 @@ Se faz necessário realizar a instalação das aplicações/frameworks abaixo:
 
 * Visual Studio Code
 
-    - [Visual Studio Code](https://bit.ly/2Oi377z)
+    - [Visual Studio Code](https://code.visualstudio.com/)
     - [.NET Core SDK](https://www.microsoft.com/net/download)
 
 * Visual Studio
@@ -32,6 +32,16 @@ A aplicação constitui num CRUD (Create, Read, Update e Delete).
 - Parte 2: Adicionando um modelo para a aplicaçao ASP.NET Core Razor Pages;
 - Parte 3: Atualizando e gerando páginas;
 - Parte 4: Adicionando busca para a aplicação Razor Pages;
+
+## Vídeos do Workshop: :movie_camera:
+
+- [Aula 01 - Introdução](https://youtu.be/njlmcXxSHE4)
+- [Aula 02 - ]()
+- [Aula 03 - ]()
+- [Aula 04 - ]()
+- [Aula 05 - ]()
+- [Aula 06 - ]()
+- [Aula 07 - ]()
 
 ## Tenho Dúvidas... O que faço?! :triangular_flag_on_post:
 
