@@ -33,6 +33,16 @@ A aplicação constitui num CRUD (Create, Read, Update e Delete).
 - Parte 3: Atualizando e gerando páginas;
 - Parte 4: Adicionando busca para a aplicação Razor Pages;
 
+## Vídeos do Workshop:
+
+- [Aula 01 - Introdução](https://youtu.be/njlmcXxSHE4)
+- [Aula 02 - ]()
+- [Aula 03 - ]()
+- [Aula 04 - ]()
+- [Aula 05 - ]()
+- [Aula 06 - ]()
+- [Aula 07 - ]()
+
 ## Tenho Dúvidas... O que faço?! :triangular_flag_on_post:
 
 Caso tenha dúvidas ao código desenvolvido durante o workshop, sinta-se a vontade em abrir uma [ISSUE Aqui](https://github.com/glaucia86/workshop-net-core-iniciantes/issues) no repositório com a sua dúvida. Assim que possível, estarei respondendo as todas as dúvidas que tiverem! 
