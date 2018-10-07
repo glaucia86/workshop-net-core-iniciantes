@@ -9,7 +9,7 @@ Se faz necessário realizar a instalação das aplicações/frameworks abaixo:
 
 * Visual Studio Code
 
-    - [Visual Studio Code](https://bit.ly/2Oi377z)
+    - [Visual Studio Code](https://code.visualstudio.com/)
     - [.NET Core SDK](https://www.microsoft.com/net/download)
 
 * Visual Studio
