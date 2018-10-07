@@ -33,7 +33,7 @@ A aplicação constitui num CRUD (Create, Read, Update e Delete).
 - Parte 3: Atualizando e gerando páginas;
 - Parte 4: Adicionando busca para a aplicação Razor Pages;
 
-## Vídeos do Workshop:
+## Vídeos do Workshop: :movie_camera:
 
 - [Aula 01 - Introdução](https://youtu.be/njlmcXxSHE4)
 - [Aula 02 - ]()
