@@ -10,6 +10,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
+// Importar:
+using Microsoft.EntityFrameworkCore;
+using FilmesCRUDRazor.Models;
+
 namespace FilmesCRUDRazor
 {
     public class Startup
@@ -31,7 +35,7 @@ namespace FilmesCRUDRazor
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
+            services.AddDbContext<FilmeContext>(options => options.UseSqlite(Configuration.GetConnectionString("FilmeContext")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
