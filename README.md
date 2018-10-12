@@ -43,6 +43,20 @@ A aplicação constitui num CRUD (Create, Read, Update e Delete).
 - [Aula 06 - ]()
 - [Aula 07 - ]()
 
+## Executando o projeto localmente :fire:
+
+Caso queira executar o projeto de maneira local, basta executar os comandos abaixo:
+
+```
+> dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+> dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+> dotnet restore
+> dotnet ef migrations add InitialCreate
+> dotnet ef database update
+```
+
+Feito isso irá criar a base de dados para que possa ser testada na hora de executar a aplicação ao dar: **dotnet run** na raiz do projeto.
+
 ## Tenho Dúvidas... O que faço?! :triangular_flag_on_post:
 
 Caso tenha dúvidas ao código desenvolvido durante o workshop, sinta-se a vontade em abrir uma [ISSUE Aqui](https://github.com/glaucia86/workshop-net-core-iniciantes/issues) no repositório com a sua dúvida. Assim que possível, estarei respondendo as todas as dúvidas que tiverem! 
