@@ -43,7 +43,7 @@ A aplicação constitui num CRUD (Create, Read, Update e Delete).
 - [Aula 06 - ]()
 - [Aula 07 - ]()
 
-## Executando o projeto localmente :fire:
+## Executando o Projeto Localmente :fire:
 
 Caso queira executar o projeto de maneira local, basta executar os comandos abaixo:
 
