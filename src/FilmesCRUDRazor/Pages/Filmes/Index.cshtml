@@ -5,50 +5,59 @@
     ViewData["Title"] = "Index";
 }
 
-<h2>Index</h2>
-
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Filme[0].Titulo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Filme[0].DataLancamento)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Filme[0].Genero)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Filme[0].Preco)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model.Filme) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Titulo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataLancamento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Genero)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Preco)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.FilmeId">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.FilmeId">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.FilmeId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="container">
+   <div class="row">
+      <div class="col-md-12">
+         <h2>Filmes Top +</h2>
+         <p>
+            <a class="btn btn-primary" asp-page="Create">
+            <span class="glyphicon glyphicon-plus"></span> Adicionar Filme
+            </a>
+         </p>
+         <div class="table-responsive">
+            <table class="table table-striped">
+               <thead>
+                  <tr>
+                     <th class="text-center">
+                        @Html.DisplayNameFor(model => model.Filme[0].Titulo)
+                     </th>
+                     <th class="text-center">
+                        @Html.DisplayNameFor(model => model.Filme[0].DataLancamento)
+                     </th>
+                     <th class="text-center">
+                        @Html.DisplayNameFor(model => model.Filme[0].Genero)
+                     </th>
+                     <th class="text-center">
+                        @Html.DisplayNameFor(model => model.Filme[0].Preco)
+                     </th>
+                     <th class="text-center">Ações</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  @foreach (var item in Model.Filme) {
+                  <tr>
+                     <td class="text-center">
+                        @Html.DisplayFor(modelItem => item.Titulo)
+                     </td>
+                     <td class="text-center">
+                        @Html.DisplayFor(modelItem => item.DataLancamento)
+                     </td>
+                     <td class="text-center">
+                        @Html.DisplayFor(modelItem => item.Genero)
+                     </td>
+                     <td class="text-center">
+                        @Html.DisplayFor(modelItem => item.Preco)
+                     </td>
+                     <td class="text-center">
+                        <a class="btn btn-warning" asp-page="./Edit" asp-route-id="@item.FilmeId"><span class="glyphicon glyphicon-pencil"></span> </a> 
+                        <a class="btn btn-info" asp-page="./Details" asp-route-id="@item.FilmeId"><span class="glyphicon glyphicon-info-sign"></span> </a> 
+                        <a class="btn btn-danger" asp-page="./Delete" asp-route-id="@item.FilmeId"><span class="glyphicon glyphicon-trash"></span> </a>
+                     </td>
+                  </tr>
+                  }
+               </tbody>
+            </table>
+         </div>
+      </div>
+   </div>
+</div>
