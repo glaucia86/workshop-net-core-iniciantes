@@ -2,6 +2,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
+
 namespace FilmesCRUDRazor.Models 
 {
     public class Filme
@@ -16,7 +17,7 @@ namespace FilmesCRUDRazor.Models
         [DisplayFormat(DataFormatString = "{0: dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         public DateTime DataLancamento { get; set; }
 
-        [Display(Name="Gênero")]
+        [Display(Name = "Gênero")]
         [Required]
         public string Genero { get; set; }
 
