@@ -2,7 +2,6 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-
 namespace FilmesCRUDRazor.Models 
 {
     public class Filme
@@ -25,5 +24,6 @@ namespace FilmesCRUDRazor.Models
         [DataType(DataType.Currency)]
         [Column(TypeName = "decimal(18,2)")]
         public decimal Preco { get; set; }
+
     }
 }
