@@ -5,39 +5,42 @@
     ViewData["Title"] = "Details";
 }
 
-<h2>Details</h2>
-
-<div>
-    <h4>Filme</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Filme.Titulo)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.Filme.Titulo)
-        </dd>
-        <dt>
-            @Html.DisplayNameFor(model => model.Filme.DataLancamento)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.Filme.DataLancamento)
-        </dd>
-        <dt>
-            @Html.DisplayNameFor(model => model.Filme.Genero)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.Filme.Genero)
-        </dd>
-        <dt>
-            @Html.DisplayNameFor(model => model.Filme.Preco)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.Filme.Preco)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-page="./Edit" asp-route-id="@Model.Filme.FilmeId">Edit</a> |
-    <a asp-page="./Index">Back to List</a>
+<div class="container">
+   <div class="row">
+      <h2>Detalhes</h2>
+      <div>
+         <h4>Filmes Top +</h4>
+         <hr />
+         <dl class="dl-horizontal">
+            <dt>
+               @Html.DisplayNameFor(model => model.Filme.Titulo)
+            </dt>
+            <dd> 
+               @Html.DisplayFor(model => model.Filme.Titulo)
+            </dd>
+            <dt>
+               @Html.DisplayNameFor(model => model.Filme.DataLancamento)
+            </dt>
+            <dd>
+               @Html.DisplayFor(model => model.Filme.DataLancamento)
+            </dd>
+            <dt>
+               @Html.DisplayNameFor(model => model.Filme.Genero)
+            </dt>
+            <dd>
+               @Html.DisplayFor(model => model.Filme.Genero)
+            </dd>
+            <dt>
+               @Html.DisplayNameFor(model => model.Filme.Preco)
+            </dt>
+            <dd>
+               @Html.DisplayFor(model => model.Filme.Preco)
+            </dd>
+         </dl>
+      </div>
+      <div>
+         <a class="btn btn-warning" asp-page="./Edit" asp-route-id="@Model.Filme.FilmeId">Editar</a>
+         <a class="btn btn-default" asp-page="./Index">Retornar a Lista</a>
+      </div>
+   </div>
 </div>

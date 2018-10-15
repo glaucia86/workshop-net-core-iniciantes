@@ -5,42 +5,44 @@
     ViewData["Title"] = "Delete";
 }
 
-<h2>Delete</h2>
-
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>Filme</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Filme.Titulo)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.Filme.Titulo)
-        </dd>
-        <dt>
-            @Html.DisplayNameFor(model => model.Filme.DataLancamento)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.Filme.DataLancamento)
-        </dd>
-        <dt>
-            @Html.DisplayNameFor(model => model.Filme.Genero)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.Filme.Genero)
-        </dd>
-        <dt>
-            @Html.DisplayNameFor(model => model.Filme.Preco)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.Filme.Preco)
-        </dd>
-    </dl>
-    
-    <form method="post">
-        <input type="hidden" asp-for="Filme.FilmeId" />
-        <input type="submit" value="Delete" class="btn btn-default" /> |
-        <a asp-page="./Index">Back to List</a>
-    </form>
+<div class="container">
+   <div class="row">
+      <h2>Excluir</h2> 
+      <h3>Você tem certeza que deseja excluir o Filme?</h3>
+      <div>
+         <h4>Filme Top +</h4>
+         <hr />
+         <dl class="dl-horizontal">
+            <dt>
+               @Html.DisplayNameFor(model => model.Filme.Titulo)
+            </dt>
+            <dd>
+               @Html.DisplayFor(model => model.Filme.Titulo)
+            </dd>
+            <dt>
+               @Html.DisplayNameFor(model => model.Filme.DataLancamento)
+            </dt>
+            <dd>
+               @Html.DisplayFor(model => model.Filme.DataLancamento)
+            </dd>
+            <dt>
+               @Html.DisplayNameFor(model => model.Filme.Genero)
+            </dt>
+            <dd>
+               @Html.DisplayFor(model => model.Filme.Genero)
+            </dd>
+            <dt>
+               @Html.DisplayNameFor(model => model.Filme.Preco)
+            </dt>
+            <dd>
+               @Html.DisplayFor(model => model.Filme.Preco)
+            </dd>
+         </dl>
+         <form method="post">
+            <input type="hidden" asp-for="Filme.FilmeId" />
+            <input type="submit" value="Excluir" class="btn btn-danger" />
+            <a class="btn btn-default" asp-page="./Index">Retornar a Lista</a>
+         </form>
+      </div>
+   </div>
 </div>
