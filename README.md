@@ -40,7 +40,7 @@ A aplicação constitui num CRUD (Create, Read, Update e Delete).
 - [Aula 03 - Instalando Importantes Plugins HD](https://youtu.be/QobTy9hMUsA)
 - [Aula 04 - Adicionando Modelo & Criando a BD com EF Core](https://youtu.be/2UpKRHgE79I)
 - [Aula 05 - Uso de Data Annotations na Classe Modelo](https://youtu.be/3rOydR0HVEk)
-- [Aula 6 - Melhorias de Front-End no Projeto]
+- Aula 6 - Melhorias de Front-End no Projeto
     - [Aula 6.1 - Melhorias de Front-End no Projeto: Parte I](https://youtu.be/NJ9PIn1iRSI)
     - [Aula 6.2 - Melhorias de Front-End no Projeto: Parte II](https://youtu.be/drXNN8vrG8o)
     - [Aula 6.3 - Melhorias de Front-End no Projeto: Parte III]()
