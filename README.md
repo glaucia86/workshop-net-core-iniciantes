@@ -45,7 +45,7 @@ A aplicação constitui num CRUD (Create, Read, Update e Delete).
     - [Aula 6.2 - Melhorias de Front-End no Projeto: Parte II](https://youtu.be/drXNN8vrG8o)
     - [Aula 6.3 - Melhorias de Front-End no Projeto: Parte III](https://youtu.be/YuB4AThdHkI)
     - [Aula 6.4 - Melhorias de Front-End no Projeto: Parte IV](https://youtu.be/47tG0qH6a_M)
-    - [Aula 6.5 - Melhorias de Front-End no Projeto: Parte V]()
+    - [Aula 6.5 - Melhorias de Front-End no Projeto: Parte V](https://youtu.be/qiaqJplpNV0)
 - [Aula 07 - ]()
 - [Aula 08 - ]()
 
