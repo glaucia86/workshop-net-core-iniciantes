@@ -12,7 +12,7 @@ namespace FilmesCRUDRazor.Pages
 
         public void OnGet()
         {
-            Message = "Your application description page.";
+            Message = "Let's Coding!";
         }
     }
 }
