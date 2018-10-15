@@ -1,5 +1,9 @@
 # Workshop - ASP.NET Core para Iniciantes
 
+<p align="center">
+  <img src="https://i.imgsafe.org/4d/4de4b63490.jpeg"/>  
+</p>
+
 Repositório responsável pelo workshop desenvolvido durante o evento: [.NET Conference 2018 - Goiânia](https://ev.congressy.com/dotnetconf-workshop-net-core/).
 O intuito desse workshop é ensinar, de maneira prática, a como desenvolver uma aplicação em .NET Core de uma maneira: simples, rápida e fácil.
 
