@@ -5,6 +5,10 @@
     ViewData["Title"] = "Index";
 }
 
+@{
+    Layout = "_Layout";
+}
+
 <div class="container">
    <div class="row">
       <div class="col-md-12">
@@ -14,6 +18,25 @@
             <span class="glyphicon glyphicon-plus"></span> Adicionar Filme
             </a>
          </p>
+         <form>
+             <div class="row">
+                 <div class="col-md-6">
+                     <label class="text-left">Gêneros:</label>
+                     <select class="form-control" asp-for="FilmePorGenero" asp-items="Model.Generos">
+                         <option value="">Todos - Gêneros</option>
+                     </select>
+                 </div>
+             </div>
+             <br />
+             <div class="row">
+                 <div class="col-md-6">
+                     <label class="text-left">Título do Filme</label>
+                     <input class="form-control" type="text" name="BuscaPorGeneroNome" />
+                     <br />
+                     <input class="btn btn-primary" type="submit" value="Filtrar" />
+                 </div>
+             </div>
+         </form>
          <div class="table-responsive">
             <table class="table table-striped">
                <thead>

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using FilmesCRUDRazor.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace FilmesCRUDRazor.Pages.Filmes
 {
@@ -20,9 +21,36 @@ namespace FilmesCRUDRazor.Pages.Filmes
 
         public IList<Filme> Filme { get;set; }
 
-        public async Task OnGetAsync()
+        public SelectList Generos;
+
+        public string FilmePorGenero { get; set;}
+
+        public async Task OnGetAsync(string buscaPorGeneroNome, string filmePorGenero)
         {
-            Filme = await _context.Filme.ToListAsync();
+            #region Lógica do input
+
+            IQueryable<string> queryGenero = from f in _context.Filme
+                                             orderby f.Genero
+                                             select f.Genero; 
+
+            var filmes = from f in _context.Filme
+                         select f; /* select * from Filme */
+            
+            if(!String.IsNullOrEmpty(buscaPorGeneroNome))
+            {
+                filmes = filmes.Where(b => b.Titulo.Contains(buscaPorGeneroNome));
+            }
+            #endregion
+
+            #region Lógica do select
+            if(!String.IsNullOrEmpty(filmePorGenero))
+            {
+                filmes = filmes.Where(b => b.Genero == filmePorGenero);
+            }
+            #endregion
+
+            Generos = new SelectList(await queryGenero.Distinct().ToListAsync());                        
+            Filme = await filmes.ToListAsync();
         }
     }
 }
