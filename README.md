@@ -50,7 +50,7 @@ A aplicação constitui num CRUD (Create, Read, Update e Delete).
     - [Aula 6.3 - Melhorias de Front-End no Projeto: Parte III](https://youtu.be/YuB4AThdHkI)
     - [Aula 6.4 - Melhorias de Front-End no Projeto: Parte IV](https://youtu.be/47tG0qH6a_M)
     - [Aula 6.5 - Melhorias de Front-End no Projeto: Parte V](https://youtu.be/qiaqJplpNV0)
-- [Aula 07 - ]()
+- [Aula 07 - Workshop: Asp .NET Core para Iniciantes - Adicionando Busca no Index.html](https://youtu.be/2PJ5JZ5MTTo)
 - [Aula 08 - ]()
 
 ## Executando o Projeto Localmente :fire:
