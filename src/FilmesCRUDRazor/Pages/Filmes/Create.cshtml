@@ -5,43 +5,43 @@
     ViewData["Title"] = "Create";
 }
 
-<h2>Create</h2>
-
-<h4>Filme</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Filme.Titulo" class="control-label"></label>
-                <input asp-for="Filme.Titulo" class="form-control" />
-                <span asp-validation-for="Filme.Titulo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Filme.DataLancamento" class="control-label"></label>
-                <input asp-for="Filme.DataLancamento" class="form-control" />
-                <span asp-validation-for="Filme.DataLancamento" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Filme.Genero" class="control-label"></label>
-                <input asp-for="Filme.Genero" class="form-control" />
-                <span asp-validation-for="Filme.Genero" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Filme.Preco" class="control-label"></label>
-                <input asp-for="Filme.Preco" class="form-control" />
-                <span asp-validation-for="Filme.Preco" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-default" />
-            </div>
-        </form>
+<div class="container">
+   <div class="row">
+      <h2>Adicionar Filme</h2>
+      <h4>Filmes Top +</h4>
+      <hr />
+      <div class="row">
+         <div class="col-md-4">
+            <form method="post">
+               <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+               <div class="form-group">
+                  <label asp-for="Filme.Titulo" class="control-label"></label>
+                  <input asp-for="Filme.Titulo" class="form-control" />
+                  <span asp-validation-for="Filme.Titulo" class="text-danger"></span>
+               </div>
+               <div class="form-group">
+                  <label asp-for="Filme.DataLancamento" class="control-label"></label>
+                  <input asp-for="Filme.DataLancamento" class="form-control" />
+                  <span asp-validation-for="Filme.DataLancamento" class="text-danger"></span>
+               </div>
+               <div class="form-group">
+                  <label asp-for="Filme.Genero" class="control-label"></label>
+                  <input asp-for="Filme.Genero" class="form-control" />
+                  <span asp-validation-for="Filme.Genero" class="text-danger"></span>
+               </div>
+               <div class="form-group">
+                  <label asp-for="Filme.Preco" class="control-label"></label>
+                  <input asp-for="Filme.Preco" class="form-control" />
+                  <span asp-validation-for="Filme.Preco" class="text-danger"></span>
+               </div>
+               <div class="form-group">
+                    <input type=submit value="Adicionar" class="btn btn-primary" />
+                    <a class="btn btn-default" asp-page="Index">Retornar a Lista</a>
+               </div>
+            </form>
+         </div>
+      </div>
     </div>
-</div>
-
-<div>
-    <a asp-page="Index">Back to List</a>
 </div>
 
 @section Scripts {
