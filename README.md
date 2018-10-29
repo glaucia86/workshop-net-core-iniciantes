@@ -1,5 +1,9 @@
 # Workshop - ASP.NET Core para Iniciantes
 
+<p align="center">
+  <img src="https://i.imgsafe.org/4d/4de4b63490.jpeg"/>  
+</p>
+
 Repositório responsável pelo workshop desenvolvido durante o evento: [.NET Conference 2018 - Goiânia](https://ev.congressy.com/dotnetconf-workshop-net-core/).
 O intuito desse workshop é ensinar, de maneira prática, a como desenvolver uma aplicação em .NET Core de uma maneira: simples, rápida e fácil.
 
@@ -44,8 +48,8 @@ A aplicação constitui num CRUD (Create, Read, Update e Delete).
     - [Aula 6.1 - Melhorias de Front-End no Projeto: Parte I](https://youtu.be/NJ9PIn1iRSI)
     - [Aula 6.2 - Melhorias de Front-End no Projeto: Parte II](https://youtu.be/drXNN8vrG8o)
     - [Aula 6.3 - Melhorias de Front-End no Projeto: Parte III](https://youtu.be/YuB4AThdHkI)
-    - [Aula 6.4 - Melhorias de Front-End no Projeto: Parte IV]()
-    - [Aula 6.5 - Melhorias de Front-End no Projeto: Parte V]()
+    - [Aula 6.4 - Melhorias de Front-End no Projeto: Parte IV](https://youtu.be/47tG0qH6a_M)
+    - [Aula 6.5 - Melhorias de Front-End no Projeto: Parte V](https://youtu.be/qiaqJplpNV0)
 - [Aula 07 - ]()
 - [Aula 08 - ]()
 
