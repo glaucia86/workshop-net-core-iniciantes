@@ -25,6 +25,10 @@ Caso resolva usar o Visual Studio como IDE, durante a sua instalação procure i
     - ASP.NET & Web Development;
     - .NET Core Cross-Platform Development;
 
+* Cadastrar uma Conta no Azure:
+
+    - [Portal Azure](https://azure.microsoft.com/pt-br/)
+
 ## O que vou aprender?! :blue_book:
 
 Nesse workshop você será capaz de desenvolver a sua primeira aplicação Web em .NET Core 2.x Razor Pages.
@@ -51,7 +55,10 @@ A aplicação constitui num CRUD (Create, Read, Update e Delete).
     - [Aula 6.4 - Melhorias de Front-End no Projeto: Parte IV](https://youtu.be/47tG0qH6a_M)
     - [Aula 6.5 - Melhorias de Front-End no Projeto: Parte V](https://youtu.be/qiaqJplpNV0)
 - [Aula 07 - Workshop: Asp .NET Core para Iniciantes - Adicionando Busca no Index.html](https://youtu.be/2PJ5JZ5MTTo)
-- [Aula 08 - ]()
+- Aula 08 - Build & Deploy da Aplicação para o Azure
+    - [Aula 8.1 - ]()
+    - [Aula 8.2 - ]()
+    - [Aula 8.3 - ]()
 
 ## Executando o Projeto Localmente :fire:
 
