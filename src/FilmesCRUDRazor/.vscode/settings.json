@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/85ce2213-d4bf-49ae-a366-3e1f5db63a9f/resourceGroups/appsvc_rg_windows_centralus/providers/Microsoft.Web/sites/filmes-app-crud",
+    "appService.deploySubpath": ""
+}
