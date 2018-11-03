@@ -40,6 +40,7 @@ A aplicação constitui num CRUD (Create, Read, Update e Delete).
 - Parte 2: Adicionando um modelo para a aplicaçao ASP.NET Core Razor Pages;
 - Parte 3: Atualizando e gerando páginas;
 - Parte 4: Adicionando busca para a aplicação Razor Pages;
+- Parte 5: Build & Deploy da Aplicação no Azure App Service;
 
 ## Vídeos do Workshop: :movie_camera:
 
@@ -48,17 +49,17 @@ A aplicação constitui num CRUD (Create, Read, Update e Delete).
 - [Aula 03 - Instalando Importantes Plugins HD](https://youtu.be/QobTy9hMUsA)
 - [Aula 04 - Adicionando Modelo & Criando a BD com EF Core](https://youtu.be/2UpKRHgE79I)
 - [Aula 05 - Uso de Data Annotations na Classe Modelo](https://youtu.be/3rOydR0HVEk)
-- Aula 6 - Melhorias de Front-End no Projeto
+- **Aula 6 - Melhorias de Front-End no Projeto**
     - [Aula 6.1 - Melhorias de Front-End no Projeto: Parte I](https://youtu.be/NJ9PIn1iRSI)
     - [Aula 6.2 - Melhorias de Front-End no Projeto: Parte II](https://youtu.be/drXNN8vrG8o)
     - [Aula 6.3 - Melhorias de Front-End no Projeto: Parte III](https://youtu.be/YuB4AThdHkI)
     - [Aula 6.4 - Melhorias de Front-End no Projeto: Parte IV](https://youtu.be/47tG0qH6a_M)
     - [Aula 6.5 - Melhorias de Front-End no Projeto: Parte V](https://youtu.be/qiaqJplpNV0)
 - [Aula 07 - Adicionando Busca no Index.html](https://youtu.be/2PJ5JZ5MTTo)
-- Aula 08 - Build & Deploy da Aplicação para o Azure
+- **Aula 08 - Build & Deploy da Aplicação para o Azure**
     - [Aula 8.1 - Build & Deploy da Aplicação para o Azure: Parte I](https://youtu.be/dyyYCPHDRTk)
     - [Aula 8.2 - Build & Deploy da Aplicação para o Azure: Parte II](https://youtu.be/Jvx3LrCURK0)
-    - [Aula 8.3 - Build & Deploy da Aplicação para o Azure: Parte III]()
+    - [Aula 8.3 - Build & Deploy da Aplicação para o Azure: Parte III](https://youtu.be/Or2meipfoj4)
 
 ## Executando o Projeto Localmente :fire:
 
@@ -73,6 +74,38 @@ Caso queira executar o projeto de maneira local, basta executar os comandos abai
 ```
 
 Feito isso irá criar a base de dados para que possa ser testada na hora de executar a aplicação ao dar: **dotnet run** na raiz do projeto.
+
+## Screen Shots da Aplicação feita:
+
+Caso queiram dar uma olhada como ficou a aplicação final, bastam acessar o site: [https://filmes-app-crud.azurewebsites.net/](https://filmes-app-crud.azurewebsites.net/)
+
+Abaixo segue alguns screen shots da Aplicação desenvolvida:
+
+### Página Principal:
+
+<p align="center">
+  <img src="https://i.imgsafe.org/df/df6212b0bd.png"/>  
+</p>
+
+### Sobre Mim:
+
+<p align="center">
+  <img src="https://i.imgsafe.org/df/df67151204.png"/>  
+</p>
+
+### Entre em Contato:
+
+<p align="center">
+  <img src="https://i.imgsafe.org/df/df68e874b4.png"/>  
+</p>
+
+
+### Listar Filmes:
+
+<p align="center">
+  <img src="https://i.imgsafe.org/df/df69218a60.png"/>  
+</p>
+
 
 ## Tenho Dúvidas... O que faço?! :triangular_flag_on_post:
 
