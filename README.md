@@ -1,4 +1,4 @@
-# Workshop - ASP.NET Core para Iniciantes
+# Workshop - ASP.NET CORE para Iniciantes
 
 <p align="center">
   <img src="https://i.imgsafe.org/4d/4de4b63490.jpeg"/>  
@@ -6,6 +6,7 @@
 
 Repositório responsável pelo workshop desenvolvido durante o evento: [.NET Conference 2018 - Goiânia](https://ev.congressy.com/dotnetconf-workshop-net-core/).
 O intuito desse workshop é ensinar, de maneira prática, a como desenvolver uma aplicação em .NET Core de uma maneira: simples, rápida e fácil.
+
 
 ## Recursos Utilizados: :computer:
 
@@ -28,6 +29,10 @@ Caso resolva usar o Visual Studio como IDE, durante a sua instalação procure i
 * Cadastrar uma Conta no Azure:
 
     - [Portal Azure](https://azure.microsoft.com/pt-br/)
+    
+* Baixar o Git:
+    
+    - [Git](https://git-scm.com/downloads)
 
 ## O que vou aprender?! :blue_book:
 
@@ -75,7 +80,7 @@ Caso queira executar o projeto de maneira local, basta executar os comandos abai
 
 Feito isso irá criar a base de dados para que possa ser testada na hora de executar a aplicação ao dar: **dotnet run** na raiz do projeto.
 
-## Screen Shots da Aplicação feita:
+## Screen Shots da Aplicação Feita:
 
 Caso queiram dar uma olhada como ficou a aplicação final, bastam acessar o site: [https://filmes-app-crud.azurewebsites.net/](https://filmes-app-crud.azurewebsites.net/)
 
@@ -107,6 +112,6 @@ Abaixo segue alguns screen shots da Aplicação desenvolvida:
 </p>
 
 
-## Tenho Dúvidas... O que faço?! :triangular_flag_on_post:
+## Tenho Dúvidas... O que Faço?! :triangular_flag_on_post:
 
-Caso tenha dúvidas ao código desenvolvido durante o workshop, sinta-se a vontade em abrir uma [ISSUE Aqui](https://github.com/glaucia86/workshop-net-core-iniciantes/issues) no repositório com a sua dúvida. Assim que possível, estarei respondendo as todas as dúvidas que tiverem! 
+Caso tenha dúvidas ao código desenvolvido durante o workshop, sinta-se a vontade em abrir uma [ISSUE AQUI](https://github.com/glaucia86/workshop-net-core-iniciantes/issues) no repositório com a sua dúvida. Assim que possível, estarei respondendo as todas as dúvidas que tiverem! 
