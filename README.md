@@ -14,25 +14,25 @@ Se faz necessário realizar a instalação das aplicações/frameworks abaixo:
 
 * Visual Studio Code
 
-    - [Visual Studio Code](https://code.visualstudio.com/)
-    - [.NET Core SDK](https://www.microsoft.com/net/download)
+    - **[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=aspcoreiniciantes-github-gllemos)**
+    - **[.NET Core SDK](https://www.microsoft.com/net/download?WT.mc_id=aspcoreiniciantes-github-gllemos)**
 
 * Visual Studio
 
-    - [Visual Studio](https://bit.ly/2zBXxF8)
-    - [.NET Core 2.x](https://www.microsoft.com/net/download)
+    - **[Visual Studio](https://visualstudio.microsoft.com/downloads/?WT.mc_id=aspcoreiniciantes-github-gllemos)**
+    - **[.NET Core 2.x](https://dotnet.microsoft.com/download?WT.mc_id=aspcoreiniciantes-github-gllemos)**
 
 Caso resolva usar o Visual Studio como IDE, durante a sua instalação procure instalar os seguintes itens:
-    - ASP.NET & Web Development;
+    -  ASP.NET & Web Development;
     - .NET Core Cross-Platform Development;
 
 * Cadastrar uma Conta no Azure:
 
-    - [Portal Azure](https://azure.microsoft.com/pt-br/)
+    - **[Portal Azure](https://azure.microsoft.com/?WT.mc_id=aspcoreiniciantes-github-gllemos)**
     
 * Baixar o Git:
     
-    - [Git](https://git-scm.com/downloads)
+    - **[Git](https://git-scm.com/downloads)**
 
 ## O que vou aprender?! :blue_book:
 
